@@ -2,6 +2,30 @@
 
 My name is Filip Holčík and I'am a student full-stack web developer. I finished high school as "IT specialist" at SPŠE Karola Adlera (electrical engineering) in Bratislava, Slovakia. And now I'll be studying IT degree program at VUT FIT in Brno, Czech Republic.
 
+## Tech I work with
+
+- JavaScript
+
+- Node.js
+
+- Electron.js
+
+- Svelte
+
+- Linux
+
+- C language
+
+- Firebase
+
+## BTW I use
+
+- Arch (JK Pop!OS)
+
+- VIM (IdeaVIM in WebStorm)
+
+- Firefox
+
 ## How my IT passion started
 
 I was gamer since I was 12 year old, but I was gaming on All-In-One computer with notebook performance, to be able to play games comfortably on that HW, I had to tinker with software, at that point I started hating Windows. Despite I hated Windows, I was using it, because I didn't know, there was alternatives. I was gaming like this until I moved to my father.
@@ -93,17 +117,17 @@ I finished high school as IT specialist, so now I have time for business, until 
 
 
 
-<!--
-**Hejtmus/Hejtmus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Other non-interesting facts
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on business
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌱 I’m currently learning being competitive as enterprise
+
+- 🤔 I’m looking for help with CSS in svelte-lightbox
+
+- 📫 How to reach me: filip.holcik.official@gmail.com
+
+- 😄 Pronouns: He/Him
+
+- ⚡ Fun fact: I play WarThunder
+
