@@ -1,4 +1,12 @@
-### Hi there 👋
+## Hello
+
+My name is Filip Holčík and I'am a student full-stack web developer. I finished high school as "IT specialist" at SPŠE Karola Adlera (electrical engineering) in Bratislava, Slovakia. And now I'll be studying IT degree program at VUT FIT in Brno, Czech Republic.
+
+### How my IT passion started
+
+I was gamer since I was 12 year old, but I was gaming on All-In-One computer with notebook performance, to be able to play games comfortably on that HW, I had to tinker with software, at that point I started hating Windows. I was gaming like this until I moved to my father.
+
+After I moved to my father, I coludn't play games, because my AIO stayed in my mother's house, and only computer I had was Acer Aspire ONE.
 
 <!--
 **Hejtmus/Hejtmus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
