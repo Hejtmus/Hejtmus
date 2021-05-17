@@ -20,13 +20,13 @@ But I once I wanted play GTA 5, in order to play it I had to install Windows bac
 
 ### Python development
 
-After I went full-time Linux, I have decided to make my very first program, but real program, with installation script and desktop entry - I made SmartCalc. It was simple CLI program, just one python script that prompts user what mathematical operation shall be done, and then redirects to another script that prompts user value and outputs computed value.
+After I went full-time Linux (December 2017), I have decided to make my very first program, but real program, with installation script and desktop entry - I made SmartCalc. It was simple CLI program, just one python script that prompts user what mathematical operation shall be done, and then redirects to another script that prompts user value and outputs computed value.
 
 During development of this app, I heard somewhere "Doing installers is difficult" and "GUI is extremely technically difficult". Because I was programmer less than year, I wanted to prove to myself, that I'm good. I decided to pack SmartCalc into debian package.
 
 ### Making Debian packages
 
-Now this was a challage, with pathetic Debian documentation and 1 good, but deprecated video on YT. I was still adding features into SmartCalc, but significant amount of time I invested into DEB package. It took 4 months of searching web, watching videos, guessing how debian packages work and reading dpkg, dh and other manuals. I consider that time investment as worth, because I successfully packaged my app into DEB installer and most importantly I have developed problem solving skills. Next 2 months I dedicated to optimalisation of packaging app. 
+Now this was a challage, with pathetic Debian documentation and 1 good, but deprecated video on YT. I was still adding features into SmartCalc, but significant amount of time I invested into DEB package. It took 2 months (but felt like 4) of searching web, watching videos, guessing how debian packages work and reading dpkg, dh and other manuals. I consider that time investment as worth (February 2018), because I successfully packaged my app into DEB installer and most importantly I have developed problem solving skills. Next 2 months I dedicated to optimalisation of packaging app. 
 
 ### Snap packages
 
@@ -38,9 +38,59 @@ Now I'am half of good programmer, but I want to be all good (that's like boolean
 
 There was one really important choice up to me - Which framework to use. Based on my previous experience with GUI in Python I know, I will not use TKinter or PYQT. I wanted to use GTK+, but when I tried importing GTK libs into Python I broke my GTK systemwide, ouch. I could give it another shot, but I really wanted to try out Electron.js, because it uses web technology (I knew basics from school), but in order to make Electron app, I had to rewrite entire app from scratch. I did it, and actually I never returned back to Python, and I know exactly why, mostly because debugging, anyway JS is superior language (not just because V8).
 
-At this point I feel like a true developer - I distribute my own FOSS app with GUI.
+At this point (June 2018) I feel like a true developer - I distribute my own app with GUI.
 
 Distributing Electron apps is extremely simple with help of tools like electron-packager and electron-builder. I packed it into both DEB and Snap. Actually you can find [SmartCalc](https://snapcraft.io/smartcalc) on Snapstore to this day (today I am not proud of it).
+
+### GIT
+
+Almost whole development of SmartCalc was managed using Git and stored on GitHub, but at that time I was unable of commiting, pushing, pulling changes from CLI so I used browser for it. At the end of my 1st class we got second homework - do website indistinguishable from profesional sites. I used this repo and github pages to host my website. 
+
+### Profesional career
+
+My father runs family business, decorating buildings (painting interior).
+
+My dialogue with my father:
+
+```
+Me: "How do you do pricing?"
+
+My father: "I use Excel."
+
+Me: "How long does it take?"
+
+My father: "Several hours."
+
+Me: "OMG, that's huge amount of time, can you show me some sheet?"
+
+My father: "Off course."
+```
+
+We have found typo that cost us few bucks, and made me thinking about replacing Excel with other tool. I was looking for some tools online and found some, tried them, but there was no tool that satisfy our needs.
+
+I offered my father solution - I will do Electron app for our enterprise for pricing our work, he agreed an FIM Trade Pricing Tool was born. I dived into development and after 3 months we had working pice of software. Unfortunately I did not have enough time for SmartCalc development.
+
+FIM Trade Pricing Tool is proprietary program, but for its development I use Git and Github, so every change is tracked.
+
+From the beginning (September 2019) it was basically combination of Electron and jQuery. After half of year of development jQuery has been replaced with Svelte.
+
+#### Tailor-made solutions
+
+Our enterprise started offering and developing tailor-made solutions for small and medium businesses.
+
+We make apps for computers, mobile phones, servers. But our apps has to be connected (in most cases), for that we use cloud.
+
+### Covid era
+
+Time corona lockdown borught to me I used for refactioring FPT and starting 2 opensource projects ([svelte-fullpage](https://github.com/Hejtmus/svelte-fullpage) and [svelte-lightbox](https://github.com/Hejtmus/svelte-lightbox)), that I need for my client's website.
+
+I applied to VUT FIT in Brno.
+
+Somewhere around this time I took part in high school competition (ŠOČ) and placed 3rd in Bratislava round, which is enough to be accepted to most of technical colleges in Slovakia and Czech Republic. I attached SOČ results to my application form and I got accepted for daily study.
+
+I finished high school as IT specialist, so now I have time for business, until I start attending VUT FIT.
+
+
 
 
 <!--
