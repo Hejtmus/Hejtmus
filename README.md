@@ -30,6 +30,17 @@ Now this was a challage, with pathetic Debian documentation and 1 good, but depr
 
 ### Snap packages
 
+I was aware of the fact, that not every Linux user uses Debian based system. This fact motivated me into making Snap package out of my existing DEB package. This process was by a lot simpler, it just required yaml config file, existing app package and snapcraft (CLI tool), that was it.
+
+### GUI
+
+Now I'am half of good programmer, but I want to be all good (that's like boolean, there ist just true programmer and false programmer, nothing in the middle) :D, I guess now I have to make GUI for SmartCalc.
+
+There was one really important choice up to me - Which framework to use. Based on my previous experience with GUI in Python I know, I will not use TKinter or PYQT. I wanted to use GTK+, but when I tried importing GTK libs into Python I broke my GTK systemwide, ouch. I could give it another shot, but I really wanted to try out Electron.js, because it uses web technology (I knew basics from school), but in order to make Electron app, I had to rewrite entire app from scratch. I did it, and actually I never returned back to Python, and I know exactly why, mostly because debugging, anyway JS is superior language (not just because V8).
+
+At this point I feel like a true developer - I distribute my own FOSS app with GUI.
+
+Distributing Electron apps is extremely simple with help of tools like electron-packager and electron-builder. I packed it into both DEB and Snap. Actually you can find [SmartCalc](https://snapcraft.io/smartcalc) on Snapstore to this day (today I am not proud of it).
 
 
 <!--
