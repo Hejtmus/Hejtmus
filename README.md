@@ -10,9 +10,13 @@ After I moved to my father, I coludn't play games, because my AIO stayed in my m
 
 #### Mint chapter
 
+Next day I visited my friend Simon, to get Linux Mint installed on my Acer Aspire one. Since then I was busy with tweaking my system and lerning, how it works. I got familiar with thought that once I could be a programmer. Circa after one month I started demanding PC from my father. I wanted desktop, but with my HW requirements I couldn't find one I could afford, so I changed my mind and bought a notebook.
+
 #### Ubuntu chapter
 
+I decided to dualboot my new NTB, Ubuntu for school and Windows for gaming. I reconfigured my bios, installed Ubuntu alongside Windows, isntalled apps I wanted, games and that was it. After week I relized, that Windows is bloated with ads and software I don't want, so I deleted Windows partitions and extended Linux partitions.
 
+But I once I wanted play GTA 5, in order to play it I had to install Windows back. Meanwhile I finished elementary school and started attending high school (SPŠE Karola Adlera). I started programming in Python 3 in my free time. At the end of 1st half of school year we got homework - do responsive website. I decided to code it on Windows, just to give it one last try, and I found out, that Windows is terrible choice for productivity, it just slows me down in my developer journey (BTW for some reason my Windows boot time was 45 minutes, FYI Linux boot time was just 2 minutes). After this experience I decided to remove Windows from my life.
 
 <!--
 **Hejtmus/Hejtmus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
