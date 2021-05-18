@@ -77,17 +77,17 @@ My father runs a family business: decorating buildings (painting interior).
 My dialogue with my father:
 
 ```
-Me: ““How do you do pricing?””
+Me: “How do you do pricing?”
 
-My father: ““I use Excel.””
+My father: “I use Excel.”
 
-Me: ““How long does it take?””
+Me: “How long does it take?”
 
-My father: ““Several hours.””
+My father: “Several hours.”
 
-Me: “OMG, that that's a huge amount of time. Can you show me some sheets?””
+Me: “OMG, that that's a huge amount of time. Can you show me some sheets?”
 
-My father: ““Of course.””
+My father: “Of course.”
 ```
 
 We found a typo that cost us a few bucks and made me think about replacing Excel with another tool. I was looking for some tools online and found some, tried them, but no tool could satisfy our needs.
