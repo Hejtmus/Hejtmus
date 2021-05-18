@@ -30,7 +30,7 @@ My name is Filip Holčík, and I’m a full-stack student web developer. I finis
 
 Since I was 12 years old, I've been a gamer, but I was gaming on an All-In-One computer with notebook performance back then. To play games comfortably on that HW, I had to tinker with software; at that point, I started hating Windows. Although I hated Windows, I was using it because I didn’t know there were alternatives. I was gaming like this until I moved into my father's.
 
-After I moved to my father's, I couldn’t play games because my AIO stayed in my mother’s house, and the only computer I had was an Acer Aspire ONE. Because I moved, I also changed my school, and there I met my friend Simon (@simonSlamka) from my childhood. With Simon, we were mostly talking about physics, but once he trash-talked Windows, and I trash-talked as well, and then I asked him what can we do with it, he said, 'Use Linux.' My mind was blown by the fact that there is an alternative to Windows.
+After I moved to my father's, I couldn’t play games because my AIO stayed in my mother’s house, and the only computer I had was an Acer Aspire ONE. Because I moved, I also changed my school, and there I met my friend Simon ([@simonSlamka](https://github.com/simonSlamka)) from my childhood. With Simon, we were mostly talking about physics, but once he trash-talked Windows, and I trash-talked as well, and then I asked him what can we do with it, he said, 'Use Linux.' My mind was blown by the fact that there is an alternative to Windows.
 
 ### Mint chapter
 
