@@ -1,6 +1,6 @@
 # Hello
 
-My name is Filip Holčík, and I’m a full-stack student web developer. I finished high school as an “IT specialist” at SPŠE Karola Adlera (electrical engineering) in Bratislava, Slovakia. Now I'll be studying the IT degree program at FIT VUT in Brno, Czech Republic.
+My name is Filip Holčík, and I’m a full-stack student web developer. I finished high school as an “IT specialist” at SPŠE Karola Adlera (electrical engineering) in Bratislava, Slovakia. Now study IT degree program at FIT VUT in Brno, Czech Republic.
 
 ## Tech I work with
 
@@ -20,7 +20,7 @@ My name is Filip Holčík, and I’m a full-stack student web developer. I finis
 
 ## BTW, I use
 
-- Arch (JK Pop!OS)
+- Arch (JK, I use Fedora)
 
 - VIM (IdeaVIM in WebStorm)
 
