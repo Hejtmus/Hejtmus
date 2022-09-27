@@ -10,7 +10,7 @@ My name is Filip Holčík, and I’m a full-stack student web developer. I finis
 
 - Electron.js
 
-- Svelte
+- Svelte (and Kit)
 
 - Linux
 
