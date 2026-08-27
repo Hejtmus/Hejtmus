@@ -170,6 +170,27 @@ Beyond coding UI, my lead quickly noticed a strength in my workflow: technical r
 
 I stayed there for six months, and we successfully delivered the project to production. Even though the platform later had to restructure its business model, the experience was a great milestone: it gave me my first taste of formal Scrum sprints and team code reviews, confirming I could step into an established developer team and contribute effectively from day one.
 
+### College begins & Leaving Objectify
+<sub>*Late 2021*</sub>
+
+In the autumn of 2021, I moved to Brno to start my computer science degree at FIT BUT. It didn't take long to realize that the combination of demanding university coursework and agency deadlines at Objectify was unsustainable. Because Woodfinder was already stable in production, I initially dialed back my hours, and soon after decided to hand in my resignation to focus fully on school and selective freelance work.
+
+### Supercolor: Custom E-shop & Physical Store Infrastructure
+<sub>*Mid 2021*</sub>
+
+During summer breaks and alongside my studies, I took on a project for **Supercolor** (a retail store specializing in paints and varnishes).
+
+This was a dual-sided engagement: on the web side, I built their custom B2C e-commerce platform from scratch using SvelteKit, Firebase, Stripe, and Algolia search. On the physical side, I took over managing the digital infrastructure in their retail store — setting up the local network, maintaining their store computers, and handling basic OS configurations for their automated paint-mixing machines (which I still keep running in maintenance mode).
+
+### Deep Dive into Systems & Writing a Compiler in C
+<sub>*Late 2022*</sub>
+
+I generally don't like bragging about university assignments, but compiler development was something that genuinely fascinated me. The project was designed for a four-person team spanning an entire semester, but half of our team lacked the necessary low-level skills for such a demanding task. Rather than letting the project sink, another teammate and I took on the workload and wrote the entire compiler ourselves in pure C — just the two of us.
+
+Building the lexical analyzer, recursive-descent parser, semantic analysis, and intermediate code generation from scratch completely demystified what actually happens under the hood when high-level code translates down to machine instructions.
+
+Semantic analysis and optimization were easily the most exciting parts for me. Even though an optimizer wasn't mandatory for the assignment, I couldn't resist implementing basic optimizations like pre-evaluation of constant expressions, dead-code elimination, and basic tree shaking.
+
 
 
 
