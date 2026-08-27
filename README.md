@@ -191,6 +191,38 @@ Building the lexical analyzer, recursive-descent parser, semantic analysis, and 
 
 Semantic analysis and optimization were easily the most exciting parts for me. Even though an optimizer wasn't mandatory for the assignment, I couldn't resist implementing basic optimizations like pre-evaluation of constant expressions, dead-code elimination, and basic tree shaking.
 
+### The CMS Evolution & GenoaCMS
+<sub>*2022 – 2024*</sub>
+
+Across almost every project I had built — from FALADRO to Supercolor — my end users were non-technical staff. They didn't care about the underlying backend; they just needed a straightforward UI to manage products, orders, and content. In fact, nearly half of the team's entire work on Woodfinder at Objectify was spent building out custom admin dashboards and CMS interfaces.
+
+This led to a recurring frustration: the moment you build on a non-standard or modern cloud stack (like SvelteKit, Firebase, or custom cloud APIs), off-the-shelf monolithic CMS options don't fit. You find yourself constantly trapped in the cycle of reinventing the wheel and writing a custom admin interface from scratch for every single client.
+
+At first, I started building a dedicated CMS specifically tailored for my favorite stack: SvelteKit and Firebase. But halfway through, I had an epiphany:
+
+> *“Am I actually doing anything different from every other CMS creator who locks developers into their own rigid stack? No, I'm just repeating the exact same mistake.”*
+
+That realization changed everything. Instead of building another opinionated CMS, I set out to architect a truly **universal, adapter-based headless CMS** — one capable of adapting to any cloud infrastructure (GCP, AWS), any database (Firestore, Postgres, MinIO), and any frontend framework. That became the foundation of **GenoaCMS**.
+
+Because I genuinely needed this architecture for my client work, I chose GenoaCMS as my [Bachelor's thesis](https://www.vut.cz/studenti/zav-prace/detail/166024?zp_id=166024) at FIT BUT. I built the entire ecosystem from scratch — the core engine, a cloud abstraction layer, pluggable storage/auth adapters, a dedicated CLI, and custom Cloud Run deployment adapters. I defended the thesis and immediately put GenoaCMS into production, powering live client platforms like [SGS Expo](https://expo.sk/).
+
+Academically, however, the thesis reviewers largely overlooked the architectural scope and real-world multi-cloud vision, giving the work an underwhelming grade of **D**. 
+
+While frustrating, I didn't let a letter grade discourage me from software that was already solving real problems in production. Instead, it fueled my determination: I decided to make GenoaCMS the core focus of my Master’s diploma thesis as well — taking the system to the next level by focusing on security hardening, static analysis, and runtime guard injection for secure dynamic components.
+
+### International contract: The AI surveillance tracker
+<sub>*Mid 2024*</sub>
+
+Right after GPT-4 launched and the massive AI hype wave kicked off, my childhood friend Simon ([@simonSlamka](https://github.com/simonSlamka)) — the same friend who introduced me to Linux years prior — was working freelance on Upwork. When I was looking for contract work, he brought me in to collaborate on a project for a US client.
+
+The client managed a large, distributed workforce across multiple countries (including the Philippines) and wanted an extreme time-tracking system powered by AI to ensure workers weren't slacking off. It was designed to capture virtually every possible telemetry point: periodic screenshots, mouse movement, keystroke frequency, active open files, and live network socket connections — all fed into LLM prompts for automated productivity analysis.
+
+The architecture was split between us:
+* Simon wrote the low-level **C backend** that tapped into OS APIs to collect the system telemetry and activity hooks.
+* I wired the low-level data into a desktop **Electron app** to handle the client-side telemetry pipeline, and built the **monitoring dashboard** for the business owner to review AI productivity summaries and employee activity.
+
+I wasn't particularly proud of the product itself — more than a few people pointed out it felt straight out of *1984*. But as a student who needed income facing an urgent client deadline, it was an undeniable reality check. Technically, it was an intense crash course in real-time desktop telemetry, integrating generative AI pipelines, and collaborating within a fast-paced international team spanning the US, Slovakia, and the Philippines.
+
 
 
 
