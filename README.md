@@ -159,6 +159,17 @@ Somewhere around this time, I took part in a high school competition (SOČ) and 
 
 I finished high school as an IT specialist, so now I have time for business until I start attending FIT VUT.
 
+### First employment: Objectify
+<sub>*Early 2021*</sub>
+
+In early 2021, right before finishing high school, I took my first job as an employee outside of my own freelancing and family business work: I joined **Objectify**, a software development agency of around 50 developers.
+
+I was assigned to a project called **Woodfinder** — a marketplace designed to connect timber and wood producers directly to consumers, cutting out middlemen to make prices cheaper. I worked primarily on the frontend using Vue 2 (building out the product catalog and customer portal), paired with responsive email templates built in MJML and a somewhat eccentric Slovak backend framework called Total.js.
+
+Beyond coding UI, my lead quickly noticed a strength in my workflow: technical research and tool evaluation. Whenever the project hit a specialized requirement — like determining the best way to handle responsive transactional emails (which led to MJML) or calculating real driving distances between timber warehouses and client delivery addresses — I was trusted to investigate available solutions, weigh the trade-offs, and select the tools we would integrate.
+
+I stayed there for six months, and we successfully delivered the project to production. Even though the platform later had to restructure its business model, the experience was a great milestone: it gave me my first taste of formal Scrum sprints and team code reviews, confirming I could step into an established developer team and contribute effectively from day one.
+
 
 
 
