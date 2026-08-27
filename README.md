@@ -1,62 +1,67 @@
 # Hello
 
-My name is Filip Holčík, and I’m a full-stack student web developer. I finished high school as an “IT specialist” at SPŠE Karola Adlera (electrical engineering) in Bratislava, Slovakia. Now study IT degree program at FIT VUT in Brno, Czech Republic.
+My name is Filip Holčík, and I’m a full-stack student web developer. I finished high school as an “IT specialist” at SPŠE Karola Adlera (electrical engineering) in Bratislava, Slovakia. I finished CS minor at [FIT BUT](https://www.fit.vut.cz/.en), Czech Republic. Now I study information security masters programme at [FEEC BUT](https://www.fekt.vut.cz/en), Czech Republic.
 
 ## Tech I work with
 
-- JavaScript
+### Languages & Runtimes
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
-- Node.js
+### Frameworks & Tools
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Electron.js](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
-- Electron.js
+### BTW, I use
 
-- Svelte (and Kit)
-
-- Linux
-
-- C language
-
-- Firebase
-
-## BTW, I use
-
-- Arch (JK, I use Fedora)
-
-- VIM (IdeaVIM in WebStorm)
-
-- Firefox
+![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)
 
 ## How my IT passion started
+<sub>*2013*</sub>
 
 Since I was 12 years old, I've been a gamer, but back then, I was gaming on an All-In-One computer with notebook performance. To play games comfortably on that HW, I had to tinker with software, at which point, I started hating Windows. Although I hated Windows, I was using it because I didn’t know there were any alternatives. I was gaming like this until I moved to my father's.
+
+<sub>*2016*</sub>
 
 After I moved to my father's, I couldn’t play games because my AIO stayed at my mother’s house, and the only computer I had was an Acer Aspire ONE. Because I moved, I also changed my school, and there I met my friend Simon ([@simonSlamka](https://github.com/simonSlamka)) from my childhood. With Simon, we were mostly talking about physics. However later on he started trash-talking Windows, so I started as well. Then, I asked him what could be done with it, and he said: 'Use Linux.' My mind was blown away by the fact that there is an alternative to the mighty Windows.
 
 ### Mint chapter
+<sub>*2016*</sub>
 
 The next day I visited my friend, Simon, to get Linux Mint installed on my Acer Aspire One. Since then, I was busy tweaking my system and learning how it works. I got familiar with the thought that once I could be a programmer. Circa after one year, I started demanding a PC from my father. I wanted a desktop, but I couldn’t find one I could afford with my HW requirements, so I changed my mind and bought a notebook.
 
 ### Ubuntu chapter
+<sub>*Early – Mid 2017*</sub>
 
 I decided to dual-boot my new NTB: Ubuntu for school and Windows for gaming. I reconfigured my bios, installed Ubuntu (16.04 LTS (newly released)) alongside Windows, installed apps I wanted, games, and that was it. After a week, I realized that Windows is bloated with ads and software I didn't want, so I deleted all Windows partitions and extended my Linux partitions.
 
 But when I wanted to play GTA 5, I had to install Windows back. Meanwhile, I finished elementary school and started attending high school (SPŠE Karola Adlera). I started programming in Python 3 in my free time. At the end of the 1st half of the academic year, we got homework - make a responsive website. I decided to code it on Windows, just to give it one last try, and I found out that Windows is a terrible choice for productivity; it just slows me down in my developer journey (BTW, for some reason, my Windows boot time was 45 minutes, while Linux boot time was just 2 minutes). After this experience, I decided to remove Windows from my life.
 
 ### Python development
+<sub>*Late 2017*</sub>
 
 After I went full-time Linux (December 2017), I decided to make my very first program, a real program, with an installation script and a desktop entry - I made SmartCalc. It was a simple CLI program, just one python script that prompts the user what mathematical operation shall be done, and then redirects to another script that prompts a user value and outputs a computed value.
 
 During the development of this app, I heard somewhere, “Doing installers is difficult” and “GUI is extremely technically difficult.” Because I was a programmer for less than a year, I wanted to prove to myself that I’m good. I decided to pack SmartCalc into a Debian package.
 
 ### Making Debian packages
+<sub>*Early 2018*</sub>
 
 Now, this was a challenge, with pathetic Debian documentation and one good but deprecated video on YT. I was still adding features into SmartCalc, but I invested a significant amount of time into the DEB package. It was two months (but felt like four) of searching the web, watching videos, guessing how Debian packages work, and reading dpkg, DH, and other manuals. I consider that time investment to have been well made (February 2018) because I successfully packaged my app into the DEB installer. Most importantly, I have developed solid problem-solving skills. For the next two months, I dedicated myself to the optimization of the packaging app. 
 
 ### Snap packages
+<sub>*Early 2018*</sub>
 
 I was aware of the fact that not every Linux user uses a Debian-based system. This fact motivated me to make a Snap package out of my existing DEB package. This process was a lot simpler; it just required a YAML config file, an existing app package, and snapcraft (a CLI tool). That was it.
 
 ### GUI
+<sub>*Mid 2018*</sub>
 
 Now I’m half of a good programmer, but I want to be all good (that's like a boolean, there is just a true programmer and a false programmer, nothing in the middle :D). I guess now I have to make a GUI for SmartCalc.
 
@@ -67,10 +72,12 @@ I feel like a true developer at this point (June 2018) - I distribute my own app
 Distributing Electron apps is extremely simple with the help of tools like electron-packager and electron-builder. I packed it into both DEB and Snap. Actually, you can find [SmartCalc](https://snapcraft.io/smartcalc) on the Snap store to this day (today, I am not proud of it).
 
 ### GIT
+<sub>*Early 2018*</sub>
 
 The almost whole development of SmartCalc was managed using Git and stored on GitHub, but at that time, I was unable to commit, push, and pull changes using the CLI, so I used a web browser for it. At the end of my 1st class, we got second homework - do a website indistinguishable from professional sites. I used this repo and GitHub pages to host my website. 
 
-### Profesional career
+### Professional career
+<sub>*Late 2019*</sub>
 
 My father runs a family business: decorating buildings (painting interior).
 
@@ -99,12 +106,14 @@ FIM Trade Pricing Tool is a proprietary program, but I use Git and Github for it
 From the beginning (September 2019), it was basically a combination of Electron and jQuery. After half of the year of development, jQuery has been replaced with Svelte.
 
 #### Tailor-made solutions
+<sub>*Early 2020*</sub>
 
 Our enterprise started offering and developing tailor-made solutions for small and medium businesses.
 
 We make apps for computers, mobile phones, and servers. However, our apps have to be connected (in most cases); we use the cloud.
 
 ### Covid era
+<sub>*2020 – 2021*</sub>
 
 I used the time the corona lockdown brought me for refactoring FPT and starting two open-source projects ([svelte-fullpage](https://github.com/Hejtmus/svelte-fullpage) and [svelte-lightbox](https://github.com/Hejtmus/svelte-lightbox)) that I need for my client's website.
 
