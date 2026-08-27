@@ -44,7 +44,7 @@ Around that time, I was also messing with Android. I built my very first Android
 ### Ubuntu chapter
 <sub>*Early – Mid 2017*</sub>
 
-I decided to dual-boot my new NTB: Ubuntu for school and Windows for gaming. I reconfigured my bios, installed Ubuntu (16.04 LTS (newly released)) alongside Windows, installed apps I wanted, games, and that was it. After a week, I realized that Windows is bloated with ads and software I didn't want, so I deleted all Windows partitions and extended my Linux partitions.
+I decided to dual-boot my new laptop: Ubuntu for school and Windows for gaming. I reconfigured my BIOS, installed Ubuntu (16.04 LTS (newly released)) alongside Windows, installed apps I wanted, games, and that was it. After a week, I realized that Windows is bloated with ads and software I didn't want, so I deleted all Windows partitions and extended my Linux partitions.
 
 But when I wanted to play GTA 5, I had to install Windows back. Meanwhile, I finished elementary school and started attending high school (SPŠE Karola Adlera). I started programming in Python 3 in my free time. At the end of the 1st half of the academic year, we got homework - make a responsive website. I decided to code it on Windows, just to give it one last try, and I found out that Windows is a terrible choice for productivity; it just slows me down in my developer journey (BTW, for some reason, my Windows boot time was 45 minutes, while Linux boot time was just 2 minutes). After this experience, I decided to remove Windows from my life.
 
@@ -79,7 +79,7 @@ Distributing Electron apps is extremely simple with the help of tools like elect
 ### GIT
 <sub>*Early 2018*</sub>
 
-The almost whole development of SmartCalc was managed using Git and stored on GitHub, but at that time, I was unable to commit, push, and pull changes using the CLI, so I used a web browser for it. At the end of my 1st class, we got second homework - do a website indistinguishable from professional sites. I used this repo and GitHub pages to host my website. 
+Almost the entire development of SmartCalc was managed using Git and stored on GitHub, but at that time, I was unable to commit, push, and pull changes using the CLI, so I used a web browser for it. At the end of my 1st class, we got second homework - do a website indistinguishable from professional sites. I used this repo and GitHub pages to host my website. 
 
 ### First money from coding & script-kiddie era
 <sub>*Early 2018*</sub>
@@ -104,7 +104,7 @@ Me: “How long does it take?”
 
 My father: “Several hours.”
 
-Me: “OMG, that that's a huge amount of time. Can you show me some sheets?”
+Me: “OMG, that's a huge amount of time. Can you show me some sheets?”
 
 My father: “Of course.”
 ```
@@ -115,7 +115,7 @@ I offered my father a solution - I will make an Electron app for our enterprise 
 
 FIM Trade Pricing Tool is a proprietary program, but I use Git and Github for its development, so every change is tracked.
 
-From the beginning (September 2019), it was basically a combination of Electron and jQuery. After half of the year of development, jQuery has been replaced with Svelte.
+From the beginning (September 2019), it was basically a combination of Electron and jQuery. After six months of development, jQuery has been replaced with Svelte.
 
 ### First real B2B client: FALADRO
 <sub>*Early 2020*</sub>
@@ -222,6 +222,39 @@ The architecture was split between us:
 * I wired the low-level data into a desktop **Electron app** to handle the client-side telemetry pipeline, and built the **monitoring dashboard** for the business owner to review AI productivity summaries and employee activity.
 
 I wasn't particularly proud of the product itself — more than a few people pointed out it felt straight out of *1984*. But as a student who needed income facing an urgent client deadline, it was an undeniable reality check. Technically, it was an intense crash course in real-time desktop telemetry, integrating generative AI pipelines, and collaborating within a fast-paced international team spanning the US, Slovakia, and the Philippines.
+
+### My first SaaS: Automated receipts & accounting (`receipts-framework`)
+<sub>*Spring 2025 – Present*</sub>
+
+In early 2025, the accountant for my family’s business approached me with a problem: his clients were drowning in paper receipts and invoices. The existing market tools (like Doklado) charged around €0.20 per scanned document — to the point where one of his clients was spending several hundred euros a year just on document scanning fees.
+
+I realized I could build something substantially better and cheaper:
+* For Slovak receipts, I tapped directly into the official **eKasa** system: scanning the receipt’s QR code with the phone camera and fetching authenticated transaction data with 100% accuracy.
+* For foreign receipts and invoices, I built an extraction pipeline combining local computer vision (OpenCV edge detection) with **Cloud AI (Google Gemini)** to extract structured line items, VAT rates, and supplier data.
+
+The framework generated both structured raw data exports for accounting software and a pixel-accurate visual PDF reconstruction of the original receipt. Through aggressive pre-processing and pipeline optimization, I pushed the extraction cost down to **less than €0.001 per document**. Instead of charging predatory pay-per-document rates, I launched it as a subscription SaaS — a flat, transparent annual tier with unlimited usage.
+
+The tool was deployed to the accountant’s client base and operated in production throughout the year. Until that first tax office inspection arrived, I genuinely had occasional nightmares about a rounding error or calculation discrepancy causing havoc for our clients. Thankfully, both the raw data exports and PDF receipt reconstructions passed the tax audit with zero issues, proving the legal and technical robustness of the solution.
+
+### The AI mindset shift & `business-framework`
+<sub>*Late 2025 – Present*</sub>
+
+For the first year of building the SaaS, I wrote every line of code myself. Up until late 2025, I was an "AI conservative" — I acknowledged AI might become useful eventually, but found existing code generators unreliable for serious production software.
+
+Toward the end of 2025 and into 2026, I started working deeply with autonomous AI coding agents (especially Claude). Seeing their reasoning capabilities in a properly structured architectural environment completely flipped my perspective.
+
+Accepting that writing raw code by hand would no longer be my primary daily activity was genuinely difficult for me at first — typing code had been my craft and identity for over a decade. But it helped me realize a deeper truth:
+
+> *Writing raw syntax is no longer the bottleneck. True software engineering is about system architecture, domain modeling, and robust guardrails.*
+
+I put this into practice immediately: I took the rock-solid in-browser camera and scanner engine that I had painstakingly perfected for `receipts-framework`, and using AI agents, I recycled and adapted the entire architecture into the new Svelte PWA for [FALADRO](#first-real-b2b-client-faladro) — completely replacing the abandoned Flutter app in record time.
+
+Armed with this new paradigm, my accountant and I decided to expand the document scanner into a full **autonomous accounting and business suite** (`business-framework`):
+1. **Intelligent Ingestion & Reconciliation:** The system takes raw bank statements and documents, classifies transactions against the chart of accounts, and automatically matches payments to invoices with human-in-the-loop checkpoints for both the business owner and the accountant.
+2. **Automated Tax Filings:** Automatically prepares ledger balances, period closures, and corporate tax filings (DPPO).
+3. **PEPPOL & e-Invoicing Ready:** With Slovakia mandating digital invoicing via **PEPPOL** starting in 2027, I integrated the **ePošťák** network directly into the engine — supporting secure PKCE OAuth consent, automated outbound Peppol delivery, and instant inbound invoice capture.
+
+Today, the receipt extraction SaaS is mature and running in production, while the autonomous business and accounting engine is in active daily development.
 
 
 
