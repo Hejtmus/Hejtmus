@@ -256,19 +256,28 @@ Armed with this new paradigm, my accountant and I decided to expand the document
 
 Today, the receipt extraction SaaS is mature and running in production, while the autonomous business and accounting engine is in active daily development.
 
+### Academic Pivot: Information Security & Quantum Curiosity
+<sub>*September 2025 – Present*</sub>
+
+In September 2025, I transitioned to **FEEC BUT** to pursue my Master’s degree in **Information Security**. 
+
+The programme gave me solid, hands-on exposure to advanced cryptography and machine learning (including neural networks and reinforcement learning). But the biggest spark came from studying **Quantum Cryptography** (the physical, photon-based protocols). Strangely enough, it wasn't just the cryptography that fascinated me — it ignited a deep curiosity in **quantum computing itself**.
+
+That exposure led me to start casually exploring quantum computing principles and the Standard Model of particle physics in my spare time. As a longtime *Star Trek* fan, diving into physics and quantum mechanics felt like an entirely natural progression. 
+
+While I'm definitely still a beginner when it comes to quantum systems, stepping outside traditional software stacks to understand the physical and theoretical limits of computation is exciting — and a great way to differentiate my thinking from the typical developer crowd.
+
 
 
 
 ### Other non-interesting facts
 
-- 🔭 I'm currently working on my business
-
-- 🌱 I'm currently learning to be competitive as an enterprise
-
-- 🤔 I'm looking for help with CSS in svelte-lightbox
-
-- 📫 How to reach me: filip.holcik.official@gmail.com
-
-- 😄 Pronouns: He/Him
-
-- ⚡ Fun fact: I play WarThunder
+- 🔭 **Currently building:** Autonomous accounting & AI business software (`business-framework`)
+- 🎓 **Currently studying:** Master’s in Information Security at FEEC BUT
+- 🏍️ **On two wheels:** Passionate motorcyclist (riding a Honda CB650R)
+- ⛵ **At sea:** Licensed skipper (International Maritime License Cat. C & Maritime VHF Radiotelephone operator)
+- 🤸 **Calisthenics:** Dedicated to bodyweight strength (proudest milestones: 90° push-up and full front lever)
+- 🖖 **Sci-Fi:** Lifelong *Star Trek* fan (favorite captain: Jonathan Archer)
+- ⚡ **Fun fact:** I play *War Thunder*
+- 📫 **How to reach me:** filip.holcik.official@gmail.com
+- 😄 **Pronouns:** He/Him
