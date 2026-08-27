@@ -36,6 +36,11 @@ After I moved to my father's, I couldn’t play games because my AIO stayed at m
 
 The next day I visited my friend, Simon, to get Linux Mint installed on my Acer Aspire One. Since then, I was busy tweaking my system and learning how it works. I got familiar with the thought that once I could be a programmer. Circa after one year, I started demanding a PC from my father. I wanted a desktop, but I couldn’t find one I could afford with my HW requirements, so I changed my mind and bought a notebook.
 
+### Android & memory hacking
+<sub>*2016*</sub>
+
+Around that time, I was also messing with Android. I built my very first Android app using Sketchware, rooted my phone, and started poking around under the hood. Naturally, like any curious kid with root access, I used memory manipulation tools to give myself unlimited currencies in games like *Subway Surfers*, *Shadow Fight 2*, and *Angry Birds Epic* — right up until I got banned in *Need for Speed*. Looking back, that was my very first hands-on encounter with reverse engineering and how software actually manages memory.
+
 ### Ubuntu chapter
 <sub>*Early – Mid 2017*</sub>
 
@@ -76,6 +81,13 @@ Distributing Electron apps is extremely simple with the help of tools like elect
 
 The almost whole development of SmartCalc was managed using Git and stored on GitHub, but at that time, I was unable to commit, push, and pull changes using the CLI, so I used a web browser for it. At the end of my 1st class, we got second homework - do a website indistinguishable from professional sites. I used this repo and GitHub pages to host my website. 
 
+### First money from coding & script-kiddie era
+<sub>*Early 2018*</sub>
+
+After learning basic web development from school homework, I realized I could monetize it — so I started charging my classmates to build their semester project websites. That was my first real money made from writing code.
+
+Around the same time, I went through an "innocent hacker" phase. I spent evenings cracking Wi-Fi passwords, building trojans with Metasploit, manipulating RFID cards, and sniffing RF signals when unlocking cars. It was mostly for the thrill, but it gave me a solid appreciation for security, protocols, and networking early on. 
+
 ### Professional career
 <sub>*Late 2019*</sub>
 
@@ -105,12 +117,36 @@ FIM Trade Pricing Tool is a proprietary program, but I use Git and Github for it
 
 From the beginning (September 2019), it was basically a combination of Electron and jQuery. After half of the year of development, jQuery has been replaced with Svelte.
 
-#### Tailor-made solutions
+### First real B2B client: FALADRO
 <sub>*Early 2020*</sub>
 
-Our enterprise started offering and developing tailor-made solutions for small and medium businesses.
+In early 2020, I got an unexpected phone call from a salesman at [FALADRO](https://faladro.sk/) (a company running both B2B and B2C stores with paints, varnishes, and drugstore goods).
 
-We make apps for computers, mobile phones, and servers. However, our apps have to be connected (in most cases); we use the cloud.
+```
+Salesman: “Do you think it’s possible to make a system where our B2B customers just walk around their warehouse, scan the EAN barcodes of items they need to replenish, and order directly from us?”
+
+Me: “How are they doing it now?”
+
+Salesman: “They make orders over the phone using paper notes. Items constantly get forgotten, and the whole system is a mess.”
+
+Me: “It’s definitely possible. It’s a demanding project, and I’d be happy to take it on, but I'll need some help — luckily, I know someone who might be interested.”
+```
+
+I called my friend Alex, who was doing Flutter:
+
+```
+Me: “Hey, I have a client who needs a mobile B2B ordering app. Want to do this project with me?”
+
+Alex: “Sure, let's do it.”
+```
+
+The whole contract was for a mere €2,000 — €1,000 for me, €1,000 for him. I was responsible for the backend, data synchronization, and the manager's desktop Electron app, while Alex built the Flutter mobile app. The barcode scanner was the beating heart of the entire solution from day one: clients walked their warehouse aisles, scanned product barcodes with their cameras, and submitted replenishment orders that landed directly in FALADRO’s system with zero human intervention.
+
+The hardest part at the start wasn't the technical complexity, but the human factor. Just getting an API out of FALADRO’s legacy business ERP software (EcoSun) took an exhausting 8 months of back-and-forth communication with their staff. Between that massive delay and school, it took us about a year to deliver the MVP and onboard our first customers.
+
+From 2021 through 2023, we went through a solid era of improvements — polishing order workflows, improving scanner quality-of-life, and adding features. But eventually, a slow decay set in. Alex began ignoring maintenance requests from FALADRO and stalled mobile updates. By 2024, the app fell behind Google Play Store policy requirements and was taken down. We entered a painful, frustrating phase where we had to manually sideload APKs directly onto customers' phones just to keep their ordering operational.
+
+Fast-forward to 2026 — years later, as AI coding agents became genuinely capable, I decided to tackle the problem properly. For my first project written with AI agents, I scrapped the abandoned Flutter codebase entirely and rewrote the client from scratch into a modern, lightweight Svelte PWA. The customers loved the change, and we were finally able to expand our user base. Today, I still keep their entire digital infrastructure running — they have since expanded the system into the Czech Republic, and at an international industry conference, companies from other countries openly envied their seamless ordering setup.
 
 ### Covid era
 <sub>*2020 – 2021*</sub>
