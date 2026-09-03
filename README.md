@@ -22,6 +22,13 @@ My name is Filip Holčík, and I’m a full-stack student web developer. I finis
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)
 
+---
+
+> 💡 **A quick note for readers:**  
+> If you're a recruiter pressed for time, feel free to let an LLM extract a swift summary of my technical skills.  
+> 
+> *However, if you cherish authentic stories of how a kid tinkering with memory hacks grew into an architect of systems — grab your favorite comfort food, pull up a chair, and embark on my journey.*
+
 ## How my IT passion started
 <sub>*2013*</sub>
 
@@ -140,13 +147,27 @@ Me: “Hey, I have a client who needs a mobile B2B ordering app. Want to do this
 Alex: “Sure, let's do it.”
 ```
 
-The whole contract was for a mere €2,000 — €1,000 for me, €1,000 for him. I was responsible for the backend, data synchronization, and the manager's desktop Electron app, while Alex built the Flutter mobile app. The barcode scanner was the beating heart of the entire solution from day one: clients walked their warehouse aisles, scanned product barcodes with their cameras, and submitted replenishment orders that landed directly in FALADRO’s system with zero human intervention.
+The whole initial contract was for a mere €2,000 — €1,000 for me, €1,000 for him. We promised the client a complete cross-platform ordering system available on both Google Play and the Apple App Store. I was responsible for the backend, EcoSun ERP synchronization, and the manager's desktop Electron app, while Alex built the Flutter mobile app. The barcode scanner was the beating heart of the entire solution from day one: clients walked warehouse aisles, scanned product barcodes with their phone cameras, and submitted replenishment orders directly into FALADRO’s system without human intervention.
 
-The hardest part at the start wasn't the technical complexity, but the human factor. Just getting an API out of FALADRO’s legacy business ERP software (EcoSun) took an exhausting 8 months of back-and-forth communication with their staff. Between that massive delay and school, it took us about a year to deliver the MVP and onboard our first customers.
+The hardest part at the start wasn't the technical complexity, but the human factor. Just getting an API out of FALADRO’s legacy ERP software (EcoSun) took an exhausting 8 months of back-and-forth communication with their staff. Between that massive delay and school, it took us about a year to deliver the MVP and onboard our first customers.
 
-From 2021 through 2023, we went through a solid era of improvements — polishing order workflows, improving scanner quality-of-life, and adding features. But eventually, a slow decay set in. Alex began ignoring maintenance requests from FALADRO and stalled mobile updates. By 2024, the app fell behind Google Play Store policy requirements and was taken down. We entered a painful, frustrating phase where we had to manually sideload APKs directly onto customers' phones just to keep their ordering operational.
+We delivered the Android app early, but Alex hit a complete wall with iOS. Whenever the client or I asked about the App Store release, the answer was always the same: *“It’ll be ready next month.”*
 
-Fast-forward to 2026 — years later, as AI coding agents became genuinely capable, I decided to tackle the problem properly. For my first project written with AI agents, I scrapped the abandoned Flutter codebase entirely and rewrote the client from scratch into a modern, lightweight Svelte PWA. The customers loved the change, and we were finally able to expand our user base. Today, I still keep their entire digital infrastructure running — they have since expanded the system into the Czech Republic, and at an international industry conference, companies from other countries openly envied their seamless ordering setup.
+That “next month” dragged on for an entire year. During this time, I found myself in the worst possible position — looking like an idiot to both sides:
+* **To the client**, I looked incompetent for failing to deliver the complete solution we had promised.
+* **To Alex**, I was the unreasonable guy expecting him to grind through the friction of the Apple ecosystem for pocket money.
+
+Realizing that underpricing the project was the root cause of the deadlock, I swallowed my pride and opened an embarrassing renegotiation with the client. I laid out the reality, asked for more money, and requested that they pay us for the work we had completed so far. To my relief, they agreed. I paid Alex his share and presented him with better terms to motivate him.
+
+For a moment, it seemed to work: Alex created a publisher profile for FALADRO, pushed some minor Android improvements, and promised the iOS app was finally right around the corner. But soon enough, the exact same cycle returned. Even with more money on the table, his motivation evaporated. Every time I confronted him, he gave me the same hollow reassurance that he was just about to finish it.
+
+Because the initial contract was never officially fulfilled, we couldn't transition the client into a standard paid annual maintenance agreement. Instead, I spent the next several years maintaining the server, the sync bridge, and the desktop infrastructure entirely for free, constantly staying in active contact with the client to keep their business afloat.
+
+By 2024, decay set in completely. Alex stopped maintaining Android as well, the app fell behind Google Play Store policy requirements, and it was taken down. We entered a frustrating era where we had to manually sideload APKs directly onto customers' phones just to keep their ordering operational.
+
+In 2026, we finally reached the breaking point. The client insisted on cutting ties with Alex, and I couldn't disagree. I fired him and took the responsibility entirely onto my own shoulders to finish my end of the bargain. With the help of AI coding agents, I scrapped the abandoned Flutter codebase and rewrote the client from scratch into a modern Svelte PWA.
+
+Because it runs directly in the browser as an installable app, it instantly solved the missing iOS client without App Store friction, replaced the broken Android app, and finally settled the years-old contractual debt. The customers loved it, our user base expanded, and today I maintain their entire digital infrastructure — they have since expanded into the Czech Republic, and at an international industry conference, companies from other countries openly envied their seamless ordering setup.
 
 ### Covid era
 <sub>*2020 – 2021*</sub>
@@ -210,6 +231,8 @@ Academically, however, the thesis reviewers largely overlooked the architectural
 
 While frustrating, I didn't let a letter grade discourage me from software that was already solving real problems in production. Instead, it fueled my determination: I decided to make GenoaCMS the core focus of my Master’s diploma thesis as well — taking the system to the next level by focusing on security hardening, static analysis, and runtime guard injection for secure dynamic components.
 
+Working through the marathon of my Bachelor's thesis also permanently changed my daily editor setup. Up until that point, I had been coding in WebStorm with the IdeaVim extension. But while watching a lot of ThePrimeagen’s videos, I fell in love with the pure harmony, smoothness, and the joy of never having to reach for a mouse. I decided to make the switch: I didn't start with heavy custom Lua tinkering right away, but kept it simple by adopting NvChad with a few personal plugins and minor configuration tweaks. It completely redefined my flow, and WebStorm was left behind for good.
+
 ### International contract: The AI surveillance tracker
 <sub>*Mid 2024*</sub>
 
@@ -243,7 +266,7 @@ For the first year of building the SaaS, I wrote every line of code myself. Up u
 
 Toward the end of 2025 and into 2026, I started working deeply with autonomous AI coding agents (especially Claude). Seeing their reasoning capabilities in a properly structured architectural environment completely flipped my perspective.
 
-Accepting that writing raw code by hand would no longer be my primary daily activity was genuinely difficult for me at first — typing code had been my craft and identity for over a decade. But it helped me realize a deeper truth:
+Accepting that writing raw code by hand would no longer be my primary daily activity was genuinely difficult to swallow — especially with the cruel irony that I had *just* truly mastered my Neovim setup and Vim motions, only to realize agents could write the syntax faster. Typing code had been my craft and identity for over a decade. But it helped me realize a deeper truth:
 
 > *Writing raw syntax is no longer the bottleneck. True software engineering is about system architecture, domain modeling, and robust guardrails.*
 
@@ -277,7 +300,7 @@ While I'm definitely still a beginner when it comes to quantum systems, stepping
 - 🏍️ **On two wheels:** Passionate motorcyclist (riding a Honda CB650R)
 - ⛵ **At sea:** Licensed skipper (International Maritime License Cat. C & Maritime VHF Radiotelephone operator)
 - 🤸 **Calisthenics:** Dedicated to bodyweight strength (proudest milestones: 90° push-up and full front lever)
-- 🖖 **Sci-Fi:** Lifelong *Star Trek* fan (favorite captain: Jonathan Archer)
+- 🖖 **Sci-Fi:** Huge *Star Trek* fan (favorite captain: Jonathan Archer — though Sisko is a very close second)
 - ⚡ **Fun fact:** I play *War Thunder*
 - 📫 **How to reach me:** filip.holcik.official@gmail.com
 - 😄 **Pronouns:** He/Him
